@@ -306,7 +306,7 @@ uint8_t top[8] = {
 };
 
 /*_________________________________________________
-                   		  MAIN
+                   		MAIN
   _________________________________________________
 */
 //	Main method to make the musicbox work
@@ -388,7 +388,7 @@ void setup() {
 }
 
 /*_________________________________________________
-           COMPOSE MELODY & LOOP THE PROGRAM
+          COMPOSE MELODY & LOOP THE PROGRAM
   _________________________________________________
 */
 void loop() {
