@@ -31,10 +31,10 @@ A microcontroller-based project using an *Arduino UNO* and the *C* langauge. The
 2. Digital I/O - debouncing
 3. Digital I/O - LED
 4. Analog Input - ADC
-5. Timers (other than debouncing or PWM)
-6. LCD
+5. LCD
+6. Timers (other than debouncing)
 7. Serial I/O - UART
-8. Music synthesis tool (chosen realworld problem)
+8. Music synthesis tool (chosen real-world problem)
 
 Please see my report for more details.
 
@@ -44,19 +44,19 @@ Please see my report for more details.
 ### HOW TO RUN
 First, open the public [Tinkercad link](https://www.tinkercad.com/things/6StnqF56pt9) and click *'Simulate'*. Then click *'Start Simulation'* to give power to the Arduino.
 
-**GIF CLICKING SIMULATE HERE**
+![click simulate](/img/click-simulate.gif)
 
 Click on the push button to start the music box and listen to the mini song.
 
-**GIF CLICKING PUSH BUTTON HERE**
+![click start](/img/click-start.gif)
 
 You can adjust the tempo in realtime to speed up / slow down the song.
 
-**GIF ADJUSTING TEMPO HERE**
+![adjust tempo](/img/adjust-tempo.gif)
 
 Finally, click on *'Code'* to toggle the code editor and expand the Serial Monitor pane to see messages & timestamps. These timestamps are designed for you to see the intervals between each note, allowing for a more visual depiction when changing tempo.
 
-**GIF SERIAL MONITOR HERE**
+![serial monitor](/img/serial-monitor.gif)
 
 # Dependencies
 *Autodesk's Tinkercad* is required to view and operate the music box online. You do not need an account and you may use any browser you wish. Performance will vary depending on your device / internet connection.
