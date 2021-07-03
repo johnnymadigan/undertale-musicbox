@@ -27,14 +27,14 @@
 ### A MICROCONTROLLER PROJECT
 A microcontroller-based project using an *Arduino UNO* and the *C* langauge. The task is to design a circuit with source code to achieve **8** functionalities. Functionalities that demonstrate understanding and skill controlling components with a low level language. The **8** functionalities:
 
-- Digital I/O - switch
-- Digital I/O - debouncing
-- Digital I/O - LED
-- Analog Input - ADC
-- Timers (other than debouncing or PWM)
-- LCD
-- Serial I/O - UART
-- Music synthesis tool (chosen realworld problem)
+1. [x] Digital I/O - switch
+2. [x] Digital I/O - debouncing
+3. [x] Digital I/O - LED
+4. [x] Analog Input - ADC
+5. [x] Timers (other than debouncing or PWM)
+6. [x] LCD
+7. [x] Serial I/O - UART
+8. [x] Music synthesis tool (chosen realworld problem)
 
 Please see my report for more details.
 
