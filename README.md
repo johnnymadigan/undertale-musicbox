@@ -38,7 +38,7 @@ A microcontroller-based project using an *Arduino UNO* and the *C* langauge. The
 
 Please see my report for more details.
 
-![demonstration](/img/musicbox-demonstration.gif)
+![demonstration](/img/demonstration.gif)
 
 # Usage
 ### HOW TO RUN
