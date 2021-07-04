@@ -45,10 +45,11 @@ Please see my report for more details.
 First, open the public [Tinkercad link](https://www.tinkercad.com/things/6StnqF56pt9) and click *'Simulate'*. Then click *'Start Simulation'* to give power to the Arduino.
 
 ![click simulate](/img/simulate.gif)
-
-Click on the push button to start the music box and listen to the mini song.
-
 ![click run](/img/run.gif)
+
+Click on the push button to start the music box and listen to the mini song!
+
+![click run](/img/pushbutton.gif)
 
 You can adjust the tempo in realtime to speed up / slow down the song.
 
