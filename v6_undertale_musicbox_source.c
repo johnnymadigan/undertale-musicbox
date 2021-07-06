@@ -18,7 +18,7 @@
 
 
 
-	Tutor:			Pearl
+	Tutor:			  Pearl
 	Project name:	Undertale Musicbox
 	Inspired by:	https://www.youtube.com/watch?v=73RcTpsHYVM
   _________________________________________________
@@ -37,15 +37,15 @@
   _________________________________________________
 */
 //	MACROS to set, clear, and read bits from Topic 7 – Introduction to Microcontrollers
-#define SET_BIT(reg, pin)			(reg) |= (1 << (pin))
-#define CLEAR_BIT(reg, pin)			(reg) &= ~(1 << (pin))
+#define SET_BIT(reg, pin)			      (reg) |= (1 << (pin))
+#define CLEAR_BIT(reg, pin)		      (reg) &= ~(1 << (pin))
 #define WRITE_BIT(reg, pin, value)	(reg) = (((reg) & ~(1 << (pin))) | ((value) << (pin)))
-#define BIT_VALUE(reg, pin)			(((reg) >> (pin)) & 1)
-#define BIT_IS_SET(reg, pin)		(BIT_VALUE((reg),(pin))==1)
+#define BIT_VALUE(reg, pin)		  	  (((reg) >> (pin)) & 1)
+#define BIT_IS_SET(reg, pin)		    (BIT_VALUE((reg),(pin))==1)
 
 //	BAUD VARIABLES From Lecture Notes Topic 8 - Serial Communication
 #define baud_rate		9600
-#define F_CPU			16000000UL
+#define F_CPU			  16000000UL
 #define my_baud 		F_CPU/16/baud_rate-1
 
 //	TIMER FREQUENCY AND PRESCALER From Lecture Notes Topic 9 - Timers and Interrupts
@@ -181,20 +181,20 @@ uint8_t _lcd_displaymode;
 */
 //	Musical notes from Arduino's Melody documentation  
 //	https://www.arduino.cc/en/tutorial/melody
-//	variable    period     frequency equivalent
-#define note_c	3830	// 261 Hz
+//	variable    period  frequency equivalent
+#define note_c	3830	  // 261 Hz
 #define note_e	3038    // 329 Hz
 #define note_f	2864    // 349 Hz
 #define note_g	2550    // 392 Hz
 #define note_a	2272    // 440 Hz
-#define	rest	0		// rest note (no noise)
+#define	rest	  0		    // rest note (no noise)
 
 //	Debouncing in milliseconds
 #define DEBOUNCING_MS	1000
 
-int current_note = 0;				// Holds the current note
-long length  = 0;					// Holds the length of the song
-long overall_tempo = 25000;			// Holds the overall tempo
+int current_note = 0;				      // Holds the current note
+long length  = 0;					        // Holds the length of the song
+long overall_tempo = 25000;			  // Holds the overall tempo
 volatile int count_overflow = 0;	// Holds the total times the timer overflows 
 
 //	Melody array
@@ -312,10 +312,10 @@ uint8_t top[8] = {
 //	Main method to make the musicbox work
 int main (void){
 	
-  	// Setup avr
+  // Setup avr
 	setup();
 
-  	// Loop
+  // Loop
 	for ( ;; ) {
 		loop();
 	}
@@ -325,7 +325,7 @@ int main (void){
                     	SETUP
   _________________________________________________
 */
-//	Configure registers for input and output
+// Configure registers for input and output
 void setup() {
   
   SET_BIT(DDRC, 1);		// Setup LED c for output
@@ -338,7 +338,7 @@ void setup() {
   
   CLEAR_BIT(DDRD, 2);	// Setup button for input
     
-  lcd_init();			// Setup LCD's rows & columns
+  lcd_init();			    // Setup LCD's rows & columns
   
   // Setup custom LCD characters
   lcd_createChar(1, body);
@@ -498,7 +498,7 @@ void loop() {
         _delay_us(30000);					// 83% faster
       }
       else{
-        _delay_us(180000);					// Resort to default tempo as a backup
+        _delay_us(180000);				// Resort to default tempo as a backup
      }
     }
     
@@ -1071,6 +1071,6 @@ void lcd_write8bits(uint8_t value) {
 }
 
 /*_________________________________________________
-         	  			FIN
+         	  			      FIN
   _________________________________________________
 */
