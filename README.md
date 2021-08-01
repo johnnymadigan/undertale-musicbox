@@ -1,10 +1,10 @@
-![unit](https://img.shields.io/badge/CAB202-Microprocessors%20and%20Digital%20Systems-ff69b4?style=plastic)
+![unit](https://img.shields.io/badge/CAB2O2-Microprocessors%20and%20Digital%20Systems-ff69b4?style=plastic)
 ![author](https://img.shields.io/badge/Author-Johnny%20Madigan-yellow?style=plastic)
 ![year](https://img.shields.io/badge/Year-2020-lightgrey?style=plastic)
 ![arduino](https://img.shields.io/badge/Arduino-C-informational?style=plastic&logo=arduino)
 ![tinkercad](https://img.shields.io/badge/Autodesk-Tinkercad-informational?style=plastic&logo=autodesk)
 
-<p align="center">𝔍𝔬𝔥𝔫𝔫𝔶 𝔐𝔞𝔡𝔦𝔤𝔞𝔫 🐰</p>
+<p align="center">𝔍𝔬𝔥𝔫𝔫𝔶 𝔐𝔞𝔡𝔦𝔤𝔞𝔫</p>
 
 - [About](#about)
 - [Usage](#usage)
