@@ -1,10 +1,8 @@
 ![unit](https://img.shields.io/badge/CAB2O2-Microprocessors%20and%20Digital%20Systems-ff69b4?style=plastic)
 ![author](https://img.shields.io/badge/Author-Johnny%20Madigan-yellow?style=plastic)
 ![year](https://img.shields.io/badge/Year-2020-lightgrey?style=plastic)
-![arduino](https://img.shields.io/badge/Arduino-C-informational?style=plastic&logo=arduino)
+![arduino](https://img.shields.io/badge/Arduino-C/C++-informational?style=plastic&logo=arduino)
 ![tinkercad](https://img.shields.io/badge/Autodesk-Tinkercad-informational?style=plastic&logo=autodesk)
-
-<p align="center">𝔍𝔬𝔥𝔫𝔫𝔶 𝔐𝔞𝔡𝔦𝔤𝔞𝔫</p>
 
 - [About](#about)
 - [Usage](#usage)
@@ -12,7 +10,7 @@
 
 # About
 ### A MICROCONTROLLER PROJECT
-A microcontroller-based project using an *Arduino UNO* and the *C* langauge. The task is to design a circuit with source code to achieve **8** functionalities. Functionalities that demonstrate understanding and skill controlling components with a low level language. The **8** functionalities:
+The Undertale Musicbox is an Arduino device I created to help those relax. We were given the task to 'invent, design, implement, document, and demonstrate a prototype of a microcontroller based product', showcasing my problem-solving skills and experience in low-level programming with the C lang. The device incorporates **8** core functionalities:
 
 1. Digital I/O - switch
 2. Digital I/O - debouncing
