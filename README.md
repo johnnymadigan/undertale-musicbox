@@ -8,8 +8,8 @@
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 
-# About
-### A MICROCONTROLLER PROJECT
+# **About**
+### **A MICROCONTROLLER PROJECT**
 The Undertale Musicbox is an Arduino device I created to help those relax. We were given the task to 'invent, design, implement, document, and demonstrate a prototype of a microcontroller based product', showcasing my problem-solving skills and experience in low-level programming with the C lang. The device incorporates **8** core functionalities:
 
 1. Digital I/O - switch
@@ -25,8 +25,8 @@ Please see my report for more details.
 
 ![demonstration](/img/demonstration.gif)
 
-# Usage
-### HOW TO RUN
+# **Usage**
+### **HOW TO RUN**
 First, open the public [Tinkercad link](https://www.tinkercad.com/things/6StnqF56pt9) and click *'Simulate'*. Then click *'Start Simulation'* to give power to the Arduino.
 
 ![click simulate](/img/simulate.gif)
@@ -44,5 +44,5 @@ Finally, click on *'Code'* to toggle the code editor and expand the Serial Monit
 
 ![serial monitor](/img/serial-monitor.gif)
 
-# Dependencies
+# **Dependencies**
 *Autodesk's Tinkercad* is required to view and operate the music box online. You do not need an account and you may use any browser you wish. Performance will vary depending on your device / internet connection.
