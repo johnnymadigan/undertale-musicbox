@@ -10,7 +10,7 @@
 
 # **About**
 ### **A MICROCONTROLLER PROJECT**
-The Undertale Musicbox is an Arduino device I created to help those relax. We were given the task to 'invent, design, implement, document, and demonstrate a prototype of a microcontroller based product', showcasing my problem-solving skills and experience in low-level programming with the C lang. The device incorporates **8** core functionalities:
+Undertale Musicbox is an Arduino device I created to help those relax. Given the task to 'invent, design, implement, document, and demonstrate a prototype of a microcontroller-based product'. The device incorporates **8** core functionalities:
 
 1. Digital I/O - switch
 2. Digital I/O - debouncing
@@ -27,12 +27,12 @@ Please see my report for more details.
 
 # **Usage**
 ### **HOW TO RUN**
-First, open the public [Tinkercad link](https://www.tinkercad.com/things/6StnqF56pt9) and click *'Simulate'*. Then click *'Start Simulation'* to give power to the Arduino.
+Open the public [Tinkercad link](https://www.tinkercad.com/things/6StnqF56pt9) and click *'Simulate'*. Then click *'Start Simulation'* to give power to the Arduino.
 
 ![click simulate](/img/simulate.gif)
 ![click run](/img/run.gif)
 
-Click on the push button to start the music box and listen to the mini song!
+Press the push button to start the music box and listen to the song!
 
 ![click run](/img/pushbutton.gif)
 
@@ -40,9 +40,9 @@ You can adjust the tempo in realtime to speed up / slow down the song.
 
 ![adjust tempo](/img/adjust-tempo.gif)
 
-Finally, click on *'Code'* to toggle the code editor and expand the Serial Monitor pane to see messages & timestamps. These timestamps are designed for you to see the intervals between each note, allowing for a more visual depiction when changing tempo.
+Click on *'Code'* to toggle the code editor and expand the Serial Monitor pane to see messages & timestamps. These timestamps are designed for you to see the intervals between each note, allowing for a more visual depiction when changing tempo.
 
 ![serial monitor](/img/serial-monitor.gif)
 
 # **Dependencies**
-*Autodesk's Tinkercad* is required to view and operate the music box online. You do not need an account and you may use any browser you wish. Performance will vary depending on your device / internet connection.
+Autodesk's **8Tinkercad** is required to view and operate the music box online. You do not need an account and you may use any browser you wish. Performance will vary depending on your device / internet connection.'
