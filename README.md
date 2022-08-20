@@ -1,8 +1,7 @@
-![unit](https://img.shields.io/badge/Unit-Microprocessors%20and%20Digital%20Systems-ff69b4?style=plastic)
-![author](https://img.shields.io/badge/Author-Johnny%20Madigan-yellow?style=plastic)
 ![year](https://img.shields.io/badge/Year-2020-lightgrey?style=plastic)
-![arduino](https://img.shields.io/badge/Arduino-C/C++-informational?style=plastic&logo=arduino)
-![tinkercad](https://img.shields.io/badge/Autodesk-Tinkercad-informational?style=plastic&logo=autodesk)
+![author](https://img.shields.io/badge/Author-Johnny%20Madigan-yellow?style=plastic)
+![arduino](https://img.shields.io/badge/Arduino-informational?style=plastic&logo=arduino)
+![tinkercad](https://img.shields.io/badge/Tinkercad-informational?style=plastic&logo=autodesk)
 
 - [About](#about)
 - [Usage](#usage)
