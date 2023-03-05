@@ -24,12 +24,13 @@ The device has **8** core functionalities (see report for more details):
 # **Play**
 Open my public [Tinkercad link](https://www.tinkercad.com/things/6StnqF56pt9) and click *'Simulate'* > *'Start Simulation'* to power up the device.
 
-![click simulate](/img/simulate.gif)
-![click run](/img/run.gif)
+![press simulate](/img/press-simulate.gif)
+
+![press run](/img/press-start-simulation.gif)
 
 Press the push button to start the music box and listen to the song!
 
-![click run](/img/pushbutton.gif)
+![push the button](/img/pushbutton.gif)
 
 You can adjust the tempo in realtime to speed up / slow down the song.
 
@@ -38,5 +39,7 @@ You can adjust the tempo in realtime to speed up / slow down the song.
 Click *'Code'* and expand the Serial Monitor to see messages and timestamps.
 
 These timestamps show intervals between each note, giving a visual depiction of changing tempo.
+
+![press code](/img/press-code.gif)
 
 ![serial monitor](/img/serial-monitor.gif)
